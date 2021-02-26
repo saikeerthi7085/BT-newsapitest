@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "private": true,
-  "homepage": "https://saikeerthi7085.github.io/BT-boilerpoint/",
+  "homepage": "http://saikeerthi7085.github.io/BT-newsapitest",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

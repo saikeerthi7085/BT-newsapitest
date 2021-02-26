@@ -4,13 +4,14 @@ import React from 'react'
 function Result(props) {
     
         const {Resultdata, isLoading, error } = props.testing;
+        console.log(Resultdata);
         return (
           <React.Fragment>
             {error ? <p>{error.message}</p> : null}
            
             {!isLoading ? (
                 
-              Resultdata.articles.slice(0,10).map((Result,index) => {
+              Resultdata.articles.map((Result,index) => {
                 const {author, title,content,url } =  Result;
                 return (
                     <div className="card p-3 m-3 body-fontcolor"  key={index}>

@@ -46,7 +46,7 @@ fetchnewsapi(e){
             <img src=" https://img01.bt.co.uk/s/assets/191120/images/logo/logo-2018.svg" width="50" height="50" className="d-inline-block align-top" alt=""/>
           </header>
           <div className="text-center body-fontcolor">
-            {/* <h1>BT React Code Test - by Sai Keerthi</h1> */}
+            <h1>BT React Code Test - by Sai Keerthi</h1>
              <h5 className="m-2">Retrive Data from NewsApi</h5>
             <form onSubmit = {this.fetchnewsapi}>
                     <input type = 'text' placeholder = 'Enter Keyword Ex:Tesla' value={this.state.searchstring}  onChange={this.handleChange}></input>
