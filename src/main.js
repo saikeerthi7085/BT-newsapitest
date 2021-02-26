@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import {Fragment} from 'react'
-import '../css/main.css'
+import './main.css'
 import Result from "./Result";
 
 

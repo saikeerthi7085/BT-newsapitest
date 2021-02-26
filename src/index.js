@@ -1,9 +1,9 @@
 import React from "react";
 
-import Main from "./js/main";
+import Main from "./main";
+import ReactDOM from 'react-dom';
 
 
-import { render } from "react-dom";
 
+ReactDOM.render(<Main />, document.querySelector("#main"));
 
-render(<Main />, document.querySelector("#main"));
