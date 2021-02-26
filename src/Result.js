@@ -11,7 +11,7 @@ function Result(props) {
            
             {!isLoading ? (
                 
-              Resultdata.articles.map((Result,index) => {
+              Resultdata.articles.slice(0,10).map((Result,index) => {
                 const {author, title,content,url } =  Result;
                 return (
                     <div className="card p-3 m-3 body-fontcolor"  key={index}>
