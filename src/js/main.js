@@ -24,7 +24,7 @@ handleChange(e) {
 fetchnewsapi(e){
   e.preventDefault();
   console.log(this.state.searchstring);
-  const apiUrl = 'http://newsapi.org/v2/everything?language=en&apiKey=3917467c968d441fb90e8959f83eb680&q='+this.state.searchstring ;
+  const apiUrl = 'https://newsapi.org/v2/everything?language=en&apiKey=3917467c968d441fb90e8959f83eb680&q='+this.state.searchstring ;
 
    fetch(apiUrl)
    .then((response) => response.json())
